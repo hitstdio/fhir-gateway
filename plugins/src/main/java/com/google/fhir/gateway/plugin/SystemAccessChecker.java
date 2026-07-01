@@ -55,7 +55,7 @@ import org.slf4j.LoggerFactory;
 public class SystemAccessChecker implements AccessChecker {
   private static final Logger logger = LoggerFactory.getLogger(SystemAccessChecker.class);
 
-  private static final String REQUEST_IDENTIFIER_PARAM = "request.identifier";
+  private static final String REQUEST_IDENTIFIER_PARAM = "requestor.identifier";
 
   private final FhirContext fhirContext;
   private final SmartScopeChecker smartScopeChecker;
